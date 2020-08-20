@@ -6,6 +6,7 @@
 #include<set>
 #include<time.h>
 #include<algorithm>
+#include<stdio.h>
 using namespace std;
 int main()
 {
@@ -45,7 +46,7 @@ int main()
 	cout << endl;
 	while (life-- && len!=0)
 	{
-		cout << len << endl;
+		cout<<"length : " << len << endl;
 		char ch;
 		cout << endl <<"Enter a character " << endl;
 		cin >> ch;
